@@ -16,132 +16,174 @@ permalink: /sample-blog/
 
 <style>
   .circle-pic {
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-  }
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	
+	.jumbotron {
+		margin-left: 250px;
+	}
+	
+	p {
+		font-size: 16px;
+	}
 
-  .sidebar {
-    position: fixed;
-  }
+	.sidebar {
+		position: fixed;
+	}
 
-  .side-header {
-    padding-top: 16px;
-    padding-bottom: 32px;
-  }
+	.side-header {
+		padding-top: 16px;
+		padding-bottom: 32px;
+	}
+	
+	.list-group-item {
+		border: none;
+	}
 
-  .jumbotron > h1, {
-    padding-left: 100px;
-    font-family: "Vollkorn", serif;
-  }
+	h1 {
+		font-family: "Vollkorn", serif;
+		padding-left: 100px;
+	}
+	
+	.jumbotron > p {
+		padding-left: 100px;
+	}
 
-  .jumbotron > p {
-    padding-left: 100px;
-  }
+	.borderless > .list-group-item {
+		border: none;
+	}
 
-  .borderless > .list-group-item {
-    border: none;
-  }
+	.heading {
+		padding-bottom: 30px;
+	}
 
-  .heading {
-    padding-bottom: 30px;
-  }
+	.bottom {
+		position: absolute;
+		bottom: 15px;
+	}
+	
+	.h6 {
+		font-size: 16px;
+	}
 
-  .bottom {
-    position: absolute;
-    bottom: 15px;
-  }
+	.experience-container {
+		padding-top: 50px;
+	}
 
-  .experience-container {
-    padding-top: 50px;
-  }
+	.job-title {
+		padding-top: 50px;
+	}
 
-  .job-title {
-    padding-top: 50px;
-  }
+	.job-description {
+		padding-top: 16px;
+	}
 
-  .job-description {
-    padding-top: 16px;
-  }
+	.job-date {
+		text-align: right;
+	}
 
-  .job-date {
-    text-align: right;
-  }
+	.container main-image {
+		padding-top: 0px;
+	}
 
-  .container main-image {
-    padding-top: 0px;
-  }
+	.blog-body {
+		padding-top: 16px;
+	}
 
-  .blog-body {
-    padding-top: 16px;
-  }
+	.blog-body > h4 {
+		padding-top: 16px;
+	}
+	
+	#writing, #experience {
+		margin-left: 300px;
+	}
+	
+	.col-lg-8 {
+		margin-left: -18px;
+	}
+	
+	.col-lg-4 {
+		margin-left: -10px;
+	}
 
-  .blog-body > h4 {
-    padding-top: 16px;
-  }
+	.figure {
+		width: 95%;
+		padding-left: 5%;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		display: block;
+	}
 
-  .figure {
-    width: 95%;
-    padding-left: 5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: block;
-  }
+	#carouselIndicator {
+		margin-left: 50%;
+		transform: translate(-50%);
+		width: 308px;
+		overflow: hidden;
+		padding-bottom: 1rem;
+	}
 
-  #carouselIndicator {
-    margin-left: 50%;
-    transform: translate(-50%);
-    width: 308px;
-    overflow: hidden;
-    padding-bottom: 1rem;
-  }
+	.carousel-caption {
+		display: block;
+		opacity: 0;
+		transition: .5s ease;
+	}
 
-  .carousel-caption {
-    display: block;
-    opacity: 0;
-    transition: .5s ease;
-  }
+	#carouselIndicator:hover .carousel-caption {
+		opacity: 1;
+	}
 
-  #carouselIndicator:hover .carousel-caption {
-    opacity: 1;
-  }
+	#cookie-caption {
+		position: absolute;
+		top: 0;
+	}
 
-  #cookie-caption {
-    position: absolute;
-    top: 0;
-  }
+	.h3, .h5, .blog-title, h4 {
+		font-family: "Vollkorn", serif;
+	}
+	
+	.dividing-line {
+		margin-left: 250px;
+	}
 
-  .h3, .h5, .blog-title, h4 {
-    font-family: "Vollkorn", serif;
-  }
+	@media only screen and (max-width: 992px) {
+		.dividing-line {
+			margin-left: 0px;
+		}
+		#writing, #experience {
+			margin-left: 0px;
+			padding-left: 100px;
+		}
+		.sidebar {
+			position: static;
+		}
+		.bottom {
+			position: static;
+			padding-top: 15px;
+		}
+		.jumbotron > h1, .jumbotron > p {
+			padding: 0px;
+		}
+		.jumbotron {
+			text-align: center;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
 
-  @media only screen and (max-width: 992px) {
-    .sidebar {
-      position: static;
-    }
-    .bottom {
-      position: static;
-      padding-top: 15px;
-    }
-    .jumbotron > h1, .jumbotron > p {
-      padding: 0px;
-    }
-    .jumbotron {
-      text-align: center;
-    }
+		.title-col {
+			text-align: center;
+		}
 
-    .title-col {
-      text-align: center;
-    }
+		.experience-container {
+			padding-top: 50px;
+		}
 
-    .experience-container {
-      padding-top: 50px;
-    }
-
-    .job-date {
-      text-align: left;
-    }
-  }
+		.job-date {
+			text-align: left;
+		}
+	}
 </style>
 
 <body>
