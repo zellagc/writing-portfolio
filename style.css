@@ -13,13 +13,13 @@
 	padding-bottom: 32px;
 }
 
-h1, {
+h1 {
 	padding-left: 100px;
-  font-family: "Vollkorn", serif;
+ 	font-family: "Vollkorn", serif;
 }
 
 .jumbotron > p {
-  padding-left: 100px;
+ 	padding-left: 100px;
 }
 
 .borderless > .list-group-item {
