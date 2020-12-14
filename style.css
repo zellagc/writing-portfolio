@@ -15,7 +15,7 @@
 
 .jumbotron > h1, {
 	padding-left: 100px;
-  font-family: $title-font, serif;
+  font-family: "Vollkorn", serif;
 }
 
 .jumbotron > p {
@@ -95,7 +95,7 @@
 }
 
 .h3, .h5, .blog-title, h4 {
-	font-family: $title-font, serif;
+	font-family: "Vollkorn", serif;
 }
 
 @media only screen and (max-width: 992px) {
