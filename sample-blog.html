@@ -143,15 +143,18 @@ permalink: /sample-blog/
       margin-left: 50%;
     	transform: translate(-50%);
     	width: 620px;
-	height: 200px;
+	height: 300px;
 	overflow: hidden;
     }
     .cat-pic {
       display: inline-block;
-      width: 15%;
+      overflow: hidden;
       opacity: .8;
       transition: .5s ease;
     }
+	.cat-img {
+		width: 20%;
+	}
     .caption {
       color: white;
       position: absolute;
@@ -305,13 +308,13 @@ permalink: /sample-blog/
 						<p>These are my cats, who usually don’t appear in my author bios.</p>
 						<div class="cats">
 						      <div class="cat-pic">
-							<img src="https://user-images.githubusercontent.com/75947575/102695489-50961600-41ed-11eb-8925-5efcf3167245.jpg" alt="My cat, Cookie">
+							<img class="cat-img" src="https://user-images.githubusercontent.com/75947575/102695489-50961600-41ed-11eb-8925-5efcf3167245.jpg" alt="My cat, Cookie">
 							<div class="cookie caption">
 							  <p>My cat, Cookie<br>(photo credit: Mai Nguyen)</p>
 							</div>
 						      </div>
 						      <div class="cat-pic">
-							<img src="https://user-images.githubusercontent.com/75947575/102695393-aa4a1080-41ec-11eb-8380-c40e13b1a2c6.jpg" alt="My cat, Pretty">
+							<img  class="cat-img" src="https://user-images.githubusercontent.com/75947575/102695393-aa4a1080-41ec-11eb-8380-c40e13b1a2c6.jpg" alt="My cat, Pretty">
 							<div class="pretty caption">
 							  <p>My cat, Pretty<br>(photo credit: Mai Nguyen)</p>
 							</div>
